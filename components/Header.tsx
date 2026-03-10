@@ -47,7 +47,7 @@ export default function Header() {
           text-muted font-manrope text-[0.95rem] transition-all duration-300
         `}
             >
-                {["Features", "Workflow", "Results", "Contact"].map((item) => (
+                {["Features", "Workflow", "Contact"].map((item) => (
                     <Link
                         key={item}
                         href={`#${item.toLowerCase()}`}
