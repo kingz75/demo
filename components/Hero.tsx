@@ -33,7 +33,7 @@ export default function Hero() {
                         "Admins see live orders, table numbers, payment status, sales, and inventory",
                         "Guests can pay now with Paystack or Flutterwave, or place orders and pay later"
                     ].map((point, i) => (
-                        <li key={i} className="flex items-center gap-[0.8rem] text-muted text-[0.9rem] lg:text-[0.95rem]">
+                        <li key={i} className="flex items-baseline gap-[0.8rem] text-muted text-[0.9rem] lg:text-[0.95rem]">
                             <span className="w-[0.7rem] h-[0.7rem] rounded-full bg-gradient-to-br from-amber to-red shrink-0" />
                             {point}
                         </li>
